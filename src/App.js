@@ -1,12 +1,16 @@
 import React, {useState, useEffect} from 'react'
 import {Route, Link, Switch} from 'react-router-dom'
-import './App.css';
+import './App.scss';
 import Display from './Display'
 import Form from './Form'
 
 function App() {
 
-  const url = 'http://localhost:4000/movie/'
+  // url local
+  // const url = 'http://localhost:4000/movie/'
+
+  // url heroku
+  const url = 'https://mern-lab-movies-backend-329-ct.herokuapp.com/movie'
 
   const [movies, setMovies] = useState([])
 

@@ -5,7 +5,7 @@ const Display = (props) => {
   const {movies, history, editMovie, deleteMovie} = props
 
   const loaded = () => (
-    <div style={{textAlign: 'center'}}>
+    <div className='container' style={{textAlign: 'center'}}>
       {movies.map((movie) => (
         <article key={movie._id}>
           <img src={movie.img} alt="movie"/>
