@@ -10,7 +10,7 @@ function App() {
   // const url = 'http://localhost:4000/movie/'
 
   // url heroku
-  const url = 'https://mern-lab-movies-backend-329-ct.herokuapp.com/movie'
+  const url = 'https://mern-lab-movies-backend-329-ct.herokuapp.com/movie/'
 
   const [movies, setMovies] = useState([])
 
